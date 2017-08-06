@@ -52,7 +52,7 @@ body {
     line-height: 27px;
 }
 
-.highlight {
+.highlight-section {
     width: 100%;
     height: 505px;
     margin-top: 60px;
@@ -96,4 +96,156 @@ body {
     line-height: 45px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.video-section {
+    width: 100%;
+    height: 720px;
+    margin-top: 60px;
+}
+
+.section-title {
+    width: 100%;
+    text-align: center;
+    color: #4B4856;
+    font-family: "Playfair Display";
+    font-size: 35px;
+    line-height: 47px;
+}
+
+.video-container {
+    width: 778px;
+    height: 486px;
+    margin: 60px auto;
+    background-color: #4B4856;
+}
+
+.section-line {
+    height: 3px;
+    width: 199px;
+    border-bottom: 3px solid #EF897E;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.footer-content-container {
+    height: 460px;
+    text-align: center;
+}
+
+.footer-content-image {
+    width: 414px;
+    height: 460px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(/img/DraIpad@2x.png);
+    background-size: 414px 458px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.footer-content {
+    width: 435px;
+    height: 460px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-content-logo {
+    width: 221px;
+    height: 56px;
+    background-image: url(/img/logo.png);
+    margin: 16px auto 75px;
+}
+
+.footer-content-highlight {
+    width: 100%;
+    color: #4B4856;
+    font-family: "Playfair Display";
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.footer-content-line {
+    height: 4px;
+    width: 220px;
+    border-bottom: 4px solid #9BD4D7;
+    margin: 60px auto 75px;
+}
+
+.footer-content-text {
+    color: #4B4856;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-content-stores-container {
+    height: 46px;
+    margin-top: 34px;
+}
+
+.footer-content-applestore {
+    width: 140px;
+    height: 46px;
+    display: inline-block;
+    background-image: url(/img/appstore@2x.png);
+    background-size: 140px 46px;
+}
+
+.footer-content-googleplay {
+    width: 140px;
+    height: 46px;
+    display: inline-block;
+    background-image: url(/img/google@2x.png);
+    background-size: 140px 46px;
+    margin-left: 18px;
+}
+
+.footer-bottom-bar {
+    width: 100%;
+    height: 90px;
+    margin-top: 100px;
+    background-color: #4B4856;
+    color: #FFFFFF;
+    font-family: Raleway;
+    position: relative;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 180px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-contact-container {
+    float: right;
+    margin-right: 180px;
+    display: table-row;
+}
+
+.footer-contact-icon {
+    width: 33px;
+    height: 90px;
+    background-image: url(/img/placeholder.png);
+    background-size: 18px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: table-cell;
+}
+
+.footer-contact {
+    font-size: 17px;
+    line-height: 90px;
+    text-align: center;
+    display: table-cell;
 }
